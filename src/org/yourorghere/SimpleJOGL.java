@@ -85,7 +85,7 @@ public class SimpleJOGL implements GLEventListener {
     }
 
     public void display(GLAutoDrawable drawable) {
-
+        System.out.println("Executando");
         GL gl = drawable.getGL();
 
         gl.glClear(GL.GL_COLOR_BUFFER_BIT
